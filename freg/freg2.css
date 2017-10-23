@@ -1,0 +1,84 @@
+body{
+  background-image: url(images/hui.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.wrapper{
+  text-align: center;
+  margin: auto;
+  max-width: 500px;
+  height: 190px;
+  border: 2px solid black;
+  background-color: rgba(147, 86, 30, 0.85);
+  border-radius: 30px;
+}
+.inside{
+
+}
+.button{
+  margin-top: 15px;
+  height: 20px;
+  width: 40px;
+  border-radius: 30px;
+  border: 0;
+  box-sizing: content-box;
+  border-style: ridge;
+  background-color: rgba(228, 132, 132, 0.75);
+}
+.button:hover{
+  transition: 0.3s ease;
+  background-color: rgba(154, 45, 19, 0.8);
+  box-shadow: 0px 0px 5px 5px rgb(255, 255, 255);
+}
+.button:active{
+  box-shadow: 0px 0px 5px 5px rgba(64, 37, 8, 0.65);
+}
+span{
+  color: black;
+  font-size: 19px;
+}
+.form{
+  margin-top: 3px;
+}
+input{
+  transition: 3s;
+  text-align: center;
+  width: 250px;
+  height: 19px;
+  border: 2px solid rgba(166, 76, 11, 0.88);
+  border-radius: 10px;
+  font-size: 12px;
+}
+input::-webkit-input-placeholder{
+  opacity: 1;
+  transition: 1s ease;
+  color: rgba(10, 4, 102, 0.32);
+}
+input:focus::-webkit-input-placeholder{
+  transition: opacity 1s ease;
+  color: rgba(221, 107, 71, 0.54);
+}
+input [type=text]:hover{
+  width: 200px;
+  border: 2px solid rgba(185, 95, 37, 0.72);
+}
+input [type=text]:focus{
+  width: 200px;
+  border: 3px solid rgb(204, 79, 33);
+}
+input [type=email]:hover{
+  width: 200px;
+  border: 2px solid rgba(185, 95, 37, 0.72);
+}
+input [type=email]:focus{
+  width: 200px;
+  border: 3px solid rgb(204, 79, 33);
+}
+input [type=password]:hover{
+  width: 200px;
+  border: 2px solid rgba(185, 95, 37, 0.72);
+}
+input [type=password]:focus{
+  width: 200px;
+  border: 3px solid rgb(204, 79, 33);
+}
